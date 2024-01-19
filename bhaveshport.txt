@@ -1,0 +1,77 @@
+import React from "react";
+import {
+  FaEnvelope,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebook,
+} from "react-icons/fa";
+// import '../bhavesh.png'
+
+const Home = () => {
+  return (
+    <div className="container  flex flex-col">
+      <div className=" introduction flex flex-row justify-center items-center pt-28">
+        <div className="flex-1 flex flex-col  justify-center pl-[15%] ">
+          <div className="">Hey! I am Bhavesh Mukheja</div>
+          <div className="text-4xl font-bold py-1 ">
+            I am a student at IIT Kharagpur and I enjoy designing websites.
+          </div>
+          <div className="pt-1">And this is my portfolio</div>
+          <div className="flex flex-row space-x-6 pt-2">
+            <span>
+              {" "}
+              <a
+                href="https://in.linkedin.com/in/bhavesh-mukheja-1925b2239"
+                target="blank"
+              >
+                <FaLinkedin></FaLinkedin>
+              </a>
+            </span>
+            <span>
+              <a href="https://m.facebook.com/people/Bhavesh-Mukheja/100078164168284/">
+                <FaFacebook></FaFacebook>
+              </a>
+            </span>
+            <span>
+              <a href="https://www.instagram.com/bhavesh_mukheja/">
+                <FaInstagram></FaInstagram>
+              </a>
+            </span>
+          </div>
+          <div>
+            <button
+              type="button"
+              class="text-white bg-black hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm mt-2 py-2 px-3 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+            >
+              Contact Me
+            </button>
+          </div>
+        </div>
+
+        <div className="flex-2 flex justify-center items-center pe-[15%]">
+          <div className="flex-2 flex justify-center items-center bg-yellow-500 rounded-full -z-10 w-96 h-96 ">
+            {/* <img className="w-96 h-96" src="../bhavesh.png" alt="bhavesh" /> */}
+            <img src="../bhavesh.png" alt="bhavesh" />
+          </div>
+        </div>
+      </div>
+
+      <div className="skills flex flex-col mt-28 bg-orange-100 h-96 -z-10">
+
+      <div className="heading font-bold text-4xl text-center pt-5">Skills</div>
+
+
+      <div className="flex justify-center items-center pe-[15%]">
+          <div className="flex-2 flex justify-center items-center bg-yellow-500 rounded-full -z-10 w-96 h-96 ">
+            {/* <img className="w-96 h-96" src="../bhavesh.png" alt="bhavesh" /> */}
+            <img src="../bhavesh.png" alt="bhavesh" />
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  );
+};
+
+export default Home;

@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .activeNavbar {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+  }
+  /* ... */
+}
