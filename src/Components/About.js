@@ -83,7 +83,7 @@ const About = () => {
 
       <div className="our-team bg-stone-200">
         <div className="heading w-screen text-center text-6xl underline mt-20 mb-10 pt-5">
-          Our Team
+          Co-Founders
         </div>
 
         <div class="flex flex-wrap justify-center">
